@@ -1,0 +1,95 @@
+{
+  "blocks": [
+    {
+      "key": "lb9v",
+      "text": "This is a title",
+      "type": "header-one",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "caqjo",
+      "text": "This is a paragraph",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "48h2q",
+      "text": "Bold, Italic, Underline, Strikethrough",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 0, "length": 4, "style": "BOLD" },
+        { "offset": 6, "length": 6, "style": "ITALIC" },
+        { "offset": 14, "length": 9, "style": "UNDERLINE" },
+        { "offset": 25, "length": 13, "style": "STRIKETHROUGH" }
+      ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "ctetk",
+      "text": "Some",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 1, "length": 2, "style": "ITALIC" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "ca7fd",
+      "text": "List",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 1, "length": 3, "style": "BOLD" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "5cvon",
+      "text": "Right-Aligned Text",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": { "text-align": "right" }
+    },
+    {
+      "key": "a2h91",
+      "text": "A link to google. ",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 1, "length": 5, "style": "BOLD" },
+        { "offset": 3, "length": 2, "style": "ITALIC" }
+      ],
+      "entityRanges": [{ "offset": 0, "length": 10, "key": 0 }],
+      "data": {}
+    },
+    {
+      "key": "2ve20",
+      "text": "Some colorful text.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 0, "length": 4, "style": "color-#2900ff" },
+        { "offset": 5, "length": 8, "style": "color-#ff0004" },
+        { "offset": 14, "length": 4, "style": "color-#00ff1c" }
+      ],
+      "entityRanges": [],
+      "data": {}
+    }
+  ],
+  "entityMap": {
+    "0": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": { "url": "https://www.google.com/", "targetOption": "_blank" }
+    }
+  }
+}
